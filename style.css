@@ -1,0 +1,50 @@
+body{
+    background: url(./img/galaxy.jpg);
+    text-align: center;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-shadow: 1px 1px grey;
+  }
+
+#gameCanvas {
+  margin-top: 2%;
+  margin-bottom: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: sticky;
+  text-align: center;
+
+  
+}
+
+@media only screen and (max-width: 1000px) {
+  #gameCanvas {
+    position: sticky;
+    width: 600;
+    height: 300;
+    margin-bottom: 2rem;
+  }
+  body{
+    text-align: center;
+  }
+}
+
+#play-button {
+  position: relative;
+  
+}
+
+#pause-button {
+  position: relative;
+  
+}
+
+#music {
+  color: white;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+p {
+  font-size: 14pt;
+}

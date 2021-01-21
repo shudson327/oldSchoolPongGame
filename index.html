@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="./pong.js"></script>
+
+    <title>&#127955;Old School Pong Game</title>
+</head>
+<body>
+
+
+    <div style="text-align:center">
+        <canvas id="gameCanvas" width="1200" height="650"></canvas>
+      </div>
+<h2 id="music">Try some Music:</h2>
+      <audio controls loop id="my-audio">
+        <source src="./img/techno.mp3">
+        </audio>
+
+<!-- <button id="play-button"></button>
+<button id="pause-button"></button> -->
+
+<script>
+var myAudio = document.getElementById('my-audio');
+var playButton = document.getElementById('play-button');
+var pauseButton = document.getElementById('pause-button');
+
+
+playButton.addEventListener("click", function(){
+myAudio.play();
+});
+pauseButton.addEventListener("click", function(){
+myAudio.pause();
+});
+</script> 
+
+<div class="rules">
+    <h2>How to Play:</h2>
+    <p>1. You are player to the left. Move your mouse up and down to control your paddle.</p>
+    <p>2. Don't let the ball past your paddle. When it does, your opponent scores.</p>
+    <p>3. Whoever reaches 10 first is the winner!!</p>
+  </div>
+
+   
+
+</body>
+</html>
